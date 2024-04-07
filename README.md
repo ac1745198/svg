@@ -1,2 +1,6 @@
 # svg
- 
+ This application was developed to empower freelance web developers by enabling them to create simple logos for their projects without the need for a graphic designer. Through Inquirer, users are prompted via the command line to customize their logos, including text (up to 3 characters), text color, shape (triangle, square, or circle), and shape color. Once all prompts are answered, the application generates an SVG file based on the user's selections.
+
+This project marks my inaugural foray into unit testing within my applications. The test suite, comprising three tests, ensures the accuracy of shape and color outputs. Crafting this application provided insight into the capabilities of backend developers in the absence of a traditional UI. I gained a deeper appreciation for unit testing's role in maintaining code quality, especially in collaborative projects.
+
+Furthermore, I've begun to adopt a developer's mindset, evidenced by the addition of minor error handling. For instance, the application restricts logo generation if the user inputs more than three characters. Looking ahead, potential enhancements include bolstering error handling (particularly with SVG colors), expanding the test suite, and offering a wider range of polygons and font styles for user selection.
